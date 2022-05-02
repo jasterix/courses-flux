@@ -6,6 +6,9 @@ function HomePage() {
 		<div className="jumbotron">
 			<h1>Pluralsight Admin</h1>
 			<p>React, Flux, and React Router for responsive web apps.</p>
+			<Link to="about" className="btn btn-primary">
+				About
+			</Link>
 		</div>
 	);
 }
