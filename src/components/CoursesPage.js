@@ -5,7 +5,7 @@ function CoursesPage() {
 	const [courses, setCourses] = useState([]);
 	useEffect(() => {
 		getCourses().then((_courses) => setCourses(_courses));
-	});
+	}, []);
 
 	return (
 		<>
