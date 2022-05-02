@@ -1,10 +1,10 @@
 import React from "react";
+import CourseForm from "./CourseForm";
 const ManageCoursePage = (props) => {
-	debugger;
 	return (
 		<>
 			<h2>Manage Course</h2>
-			{props.match.params.slug}
+			<CourseForm />
 		</>
 	);
 };
